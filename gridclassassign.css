@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Rubik,Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(11, 11, 39);
+    /* font-Weight: 300, 400, 500; */
+
+}
+.main-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-auto-rows: minmax(90px, 200px);
+    grid-template-areas: 
+    'inbx1 inbx2 inbx3 inbx4'
+    'inbx1 inbx5 inbx6 inbx7';
+    gap: 20px;
+    /* border-radius: 20px; */
+}
+
+.box {
+    display: grid;
+    background-color: rgb(29, 29, 74);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.one {
+    display: grid;
+    grid-area: inbx1;
+        
+}
+
+.two {
+    display: grid;
+    grid-area: inbx2;
+    align-items: flex-end;
+    background-color: rgb(148, 104, 51);
+}
+
+.three {
+    display: grid;
+    grid-area: inbx3;
+    align-items: flex-end;
+    background-color: rgb(7, 156, 206);
+}
+
+.four {
+    display: grid;
+    grid-area: inbx4;
+    align-items: flex-end;
+    background-color: rgb(214, 84, 79);
+}
+.five {
+    display: grid;
+    grid-area: inbx5;
+    align-items: flex-end;
+    background-color: rgb(3, 161, 3);
+}
+.six {
+    display: grid;
+    grid-area: inbx6;
+    align-items: flex-end;
+    background-color: rgb(68, 0, 97);
+}
+.seven {
+    display: grid;
+    grid-area: inbx7;
+    align-items: flex-end;
+    background-color: rgb(223, 149, 40);
+}
+.innerbox1 {
+    display: grid;
+    /* justify-content: center; */
+    width: 200px;
+    height: 250px;
+    /* justify-content: flex-start; */
+    background-color: rgb(76, 57, 185);
+    border-radius: 15px;
+    font-size: 11px;
+}
+.innerbox2 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+}
+.innerbox3 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+}
+.innerbox4 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+}
+.innerbox5 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+}
+.innerbox6 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+}
+.innerbox7 {
+    display: grid;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(29, 29, 74);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+img {
+    /* padding: 20px; */
+    width: 85px;
+    height: 85px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.one .innerbox1 .ptag {
+    /* padding-top: 30px; */
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.one .innerbox1 .intro {
+    /* padding-top: 30px; */
+    font-size: 16px;
+    margin-top: 10px;
+}
+.one .name {
+    padding-left: 2rem;
+    opacity: 0.4;
+}
+.one .name.name1 {
+    /* font-size: 5rem; */
+    color: #fff;
+    opacity: 1;
+}
+.image {
+    padding: 20px 0 20px 15px;
+    /* padding-bottom: 100px; */
+}
+
+.two .innerbox2 .first-hour .inline p {
+    display: inline;
+}
+.two .innerbox2 .first-hour .inline p:last-child {
+    margin-left: 6.5rem;
+    text-align: right;
+}
+.two .innerbox2 .first-hour .name01 {
+    padding-top: 1.5rem;
+}
+.two .innerbox2 .first-hour .name2 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
+.three .innerbox3 .second-hour .inline2 p {
+    display: inline;
+}
+.three .innerbox3 .second-hour .inline2 p:last-child {
+    margin-left: 6.5rem;
+    text-align: right;
+}
+.three .innerbox3 .second-hour .name02 {
+    padding-top: 1.5rem;
+}
+.three .innerbox3 .second-hour .name3 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
+.four .innerbox4 .third-hour .inline3 p {
+    display: inline;
+}
+.four .innerbox4 .third-hour .inline3 p:last-child {
+    margin-left: 6.5rem;
+    text-align: right;
+}
+.four .innerbox4 .third-hour .name03 {
+    padding-top: 1.5rem;
+}
+.four .innerbox4 .third-hour .name4 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
+.five .innerbox5 .fourth-hour .inline4 p {
+    display: inline;
+}
+.five .innerbox5 .fourth-hour .inline4 p:last-child {
+    margin-left: 4.5rem;
+    text-align: right;
+}
+.five .innerbox5 .fourth-hour .name04 {
+    padding-top: 1.5rem;
+}
+.five .innerbox5 .fourth-hour .name5 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
+.six .innerbox6 .fifth-hour .inline5 p {
+    display: inline;
+}
+.six .innerbox6 .fifth-hour .inline5 p:last-child {
+    margin-left: 6.5rem;
+    text-align: right;
+}
+.six .innerbox6 .fifth-hour .name05 {
+    padding-top: 1.5rem;
+}
+.six .innerbox6 .fifth-hour .name6 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
+.seven .innerbox7 .sixth-hour .inline6 p {
+    display: inline;
+}
+.seven .innerbox7 .sixth-hour .inline6 p:last-child {
+    margin-left: 4.5rem;
+    text-align: right;
+}
+.seven .innerbox7 .sixth-hour .name06 {
+    padding-top: 1.5rem;
+}
+.seven .innerbox7 .sixth-hour .name7 {
+    font-size: 2rem;
+    /* gap: 5px; */
+    font-weight: 500;
+}
